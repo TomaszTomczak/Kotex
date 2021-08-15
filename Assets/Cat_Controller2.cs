@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Cat_Controller2 : MonoBehaviour
 {
-    float speed = 20;
-    float rotSpeed = 80;
+    float speed = 15;
+    float rotSpeed = 60;
     float rot = 0f;
     float gravity = 100;
     float pullspeed = 2;
-    float jump = 5;
+    float jump = 0;
+    float runspeed = 10;
 
 
     Vector3 moveDir = Vector3.zero;
@@ -29,6 +30,7 @@ public class Cat_Controller2 : MonoBehaviour
         GetInput();
         pulling();
         Jumping();
+        Running();
 
     }
 
@@ -104,8 +106,8 @@ public class Cat_Controller2 : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.S))
             {
-                anim.SetInteger("condition", 4);
-                moveDir = new Vector3(0, 0, -4);
+                anim.SetInteger("condition", 5);
+                moveDir = new Vector3(0, 0, -5);
                 moveDir *= pullspeed;
                 moveDir = transform.TransformDirection(moveDir);
             }
@@ -132,6 +134,28 @@ public class Cat_Controller2 : MonoBehaviour
                 moveDir = new Vector3(0, 3, 0);
             }
         }
-
+    }
+    void Running()
+    {
+        if (controller.isGrounded)
+        {
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                if (anim.GetInteger("condition") == 1)
+                {
+                    anim.SetInteger("walking", 4);
+                    moveDir = new Vector3(0, 0, 4);
+                    moveDir *= runspeed;
+                    moveDir = transform.TransformDirection(moveDir);
+                }
+            }
+            if (Input.GetKeyUp(KeyCode.LeftShift))
+            {
+                anim.SetInteger("walking", 0);
+                moveDir = new Vector3(0, 0, 0);
+            }
+        }
+        moveDir.y -= gravity * Time.deltaTime;
+        controller.Move(moveDir * Time.deltaTime);
     }
 }
