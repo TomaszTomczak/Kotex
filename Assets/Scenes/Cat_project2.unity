@@ -1132,6 +1132,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8940520033246030442, guid: 6efe623e552797a41b8c817f8bcde168, type: 3}
     - target: {fileID: 2885271277168300491, guid: a7c237d21aed07945a3aac0cd2caaf86, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885271277168300491, guid: a7c237d21aed07945a3aac0cd2caaf86, type: 3}
       propertyPath: m_Materials.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -1147,6 +1151,26 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: 51e3cb32e12bd974d923afd53ee68bef, type: 2}
+    - target: {fileID: 5173360478626605232, guid: a7c237d21aed07945a3aac0cd2caaf86, type: 3}
+      propertyPath: m_Height
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5173360478626605232, guid: a7c237d21aed07945a3aac0cd2caaf86, type: 3}
+      propertyPath: m_Radius
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5173360478626605232, guid: a7c237d21aed07945a3aac0cd2caaf86, type: 3}
+      propertyPath: m_Center.y
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5173360478626605232, guid: a7c237d21aed07945a3aac0cd2caaf86, type: 3}
+      propertyPath: m_Center.z
+      value: -0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5173360478626605232, guid: a7c237d21aed07945a3aac0cd2caaf86, type: 3}
+      propertyPath: m_StepOffset
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8071637386638600489, guid: a7c237d21aed07945a3aac0cd2caaf86, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1191,9 +1215,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8614979325238034327, guid: a7c237d21aed07945a3aac0cd2caaf86, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8614979325238034408, guid: a7c237d21aed07945a3aac0cd2caaf86, type: 3}
       propertyPath: m_Radius
       value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8614979325238034408, guid: a7c237d21aed07945a3aac0cd2caaf86, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8614979325238034408, guid: a7c237d21aed07945a3aac0cd2caaf86, type: 3}
       propertyPath: m_Center.z
@@ -1259,5 +1291,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: cat
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5316030797428955617, guid: a7c237d21aed07945a3aac0cd2caaf86, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a7c237d21aed07945a3aac0cd2caaf86, type: 3}
