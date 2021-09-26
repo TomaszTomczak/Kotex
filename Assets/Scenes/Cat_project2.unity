@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 1
   m_FogColor: {r: 1, g: 0.87436944, b: 0.5529412, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.006
+  m_FogDensity: 0.004
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.8018868, g: 0.77111, b: 0.69219476, a: 1}
@@ -236,6 +236,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7740271940171727796, guid: f66e93c128f2f164ebd4e2cee352c278, type: 3}
   m_PrefabInstance: {fileID: 2032156758}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &268310599
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2641479702222298042, guid: 9e013d17a2e32164e8665d0ac24a07a0, type: 3}
+      propertyPath: m_Name
+      value: pranko1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450807794292031744, guid: 9e013d17a2e32164e8665d0ac24a07a0, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450807794292031744, guid: 9e013d17a2e32164e8665d0ac24a07a0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -135.07166
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450807794292031744, guid: 9e013d17a2e32164e8665d0ac24a07a0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.0809555
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450807794292031744, guid: 9e013d17a2e32164e8665d0ac24a07a0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 237.18457
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450807794292031744, guid: 9e013d17a2e32164e8665d0ac24a07a0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99949276
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450807794292031744, guid: 9e013d17a2e32164e8665d0ac24a07a0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450807794292031744, guid: 9e013d17a2e32164e8665d0ac24a07a0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.03184735
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450807794292031744, guid: 9e013d17a2e32164e8665d0ac24a07a0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450807794292031744, guid: 9e013d17a2e32164e8665d0ac24a07a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450807794292031744, guid: 9e013d17a2e32164e8665d0ac24a07a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 3.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3450807794292031744, guid: 9e013d17a2e32164e8665d0ac24a07a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9e013d17a2e32164e8665d0ac24a07a0, type: 3}
 --- !u!4 &533388477 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7740271940171727796, guid: f66e93c128f2f164ebd4e2cee352c278, type: 3}
@@ -358,7 +415,7 @@ Transform:
   - {fileID: 630239637}
   - {fileID: 814799818}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1012261615
 PrefabInstance:
@@ -599,7 +656,7 @@ Transform:
   m_LocalScale: {x: 200, y: 200, z: 200}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1295763403
 PrefabInstance:
@@ -957,7 +1014,7 @@ Transform:
   m_Children:
   - {fileID: 125170963}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1653808573
 GameObject:
@@ -987,7 +1044,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1696640250
 PrefabInstance:
