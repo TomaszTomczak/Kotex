@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 2641479702222298042}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children:
   - {fileID: 5911209771656956191}
   m_Father: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 3772382926879389779}
   - component: {fileID: 8733023174091617367}
   m_Layer: 0
-  m_Name: pranko1:polySurface5
+  m_Name: pranko1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70,7 +70,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8157021739570240731}
-  m_Mesh: {fileID: -8628031677773791714, guid: 2869365127fb1b245bdbcfc9348388e7, type: 3}
+  m_Mesh: {fileID: -8628031677773791714, guid: b68b8783cbb9ecb44a2929ef421f7aa6, type: 3}
 --- !u!23 &8733023174091617367
 MeshRenderer:
   m_ObjectHideFlags: 0
